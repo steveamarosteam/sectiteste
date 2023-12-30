@@ -1,0 +1,13 @@
+/* Adicione estas classes no seu arquivo de estilo (por exemplo, style.css) */
+.status-na-fila {
+    background-color: yellow;
+  }
+  
+  .status-em-processo {
+    background-color: orange;
+  }
+  
+  .status-finalizado {
+    background-color: green;
+  }
+  

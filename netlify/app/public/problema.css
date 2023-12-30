@@ -1,0 +1,58 @@
+*{
+    cursor: default;
+}
+
+body {
+    background: url('./images/banner05.jpg');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    text-align: center;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.containner {
+    background: rgba(255, 255, 255, 0.712);
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    min-height: 500px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    margin-top: 50px;
+}
+
+h1 {
+    margin: 0 0 70px 0;
+    padding:0 10px 0 10px;
+    text-transform: uppercase;
+    overflow-wrap: break-word;
+}
+h2 {
+    margin: 10px;
+}
+
+strong {
+    color: green;
+}
+
+#problemaConteudo {
+    box-sizing: border-box;
+    border: 1px solid green;
+    border-radius: 25px;
+    padding: 10px;
+    width: 20vw;
+    min-width: 70%;
+    max-width: 100%;
+    margin: auto;
+    overflow-wrap: break-word;
+}

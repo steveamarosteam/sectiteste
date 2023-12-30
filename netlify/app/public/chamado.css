@@ -1,0 +1,74 @@
+body {
+    background: url('./images/banner04.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    text-align: center;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.containner {
+    background: rgba(255, 255, 255, 0.712);
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    margin-top: 50px;
+}
+
+label {
+    font-size: xx-large;
+    text-transform: uppercase;
+    margin: 15px;
+}
+
+input {
+    width: 70%;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: x-large;
+    color: green;
+    text-align: center;
+}
+
+textarea {
+    margin: 20px;
+    padding: 15px;
+    width: 70%;
+    border-radius: 6px;
+    color: green;
+    overflow: hidden;
+    max-width: 100%;
+    height: 100%;
+    font-size: large;
+}
+
+button {
+    margin-bottom: 15px;
+    font-size: large;
+    border: 1px solid green;
+    border-radius: 25px;
+    background: transparent;
+    padding:  10px 25px;
+    transition: all 0.5s;
+}
+
+button:hover {
+    background: green;
+    color: white;
+    transition: all 0.5s;
+}
+    

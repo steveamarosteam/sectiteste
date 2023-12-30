@@ -1,0 +1,110 @@
+body {
+    background: url('./images/banner06.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    padding: 0;
+}
+
+
+
+.header {
+    background: rgba(255, 255, 255, 0.712);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header h1 {
+    margin-left: 20px;
+    text-align: center;
+}
+
+.header .call {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.header .call a {
+    text-decoration: none;
+    margin-right: 30px;
+    color: green;
+    font-size: large;
+    text-transform: uppercase;
+    border: 1px solid green;
+    padding: 5px 8px 1px 8px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background, color 0.5s;
+}
+
+.header .call a:hover {
+    background: green;
+    color: white;
+    transition: all 0.5s;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.containner {
+    background: rgba(255, 255, 255, 0.712);
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    margin-top: 50px;
+}
+
+#listaTextos {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#listaTextos li {
+    opacity: 0.7;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#listaTextos li:hover {
+    transform: scale(1.1);
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+/* Adicione estas classes no seu arquivo de estilo (por exemplo, style.css) */
+.fila {
+    background-color: yellow;
+  }
+  
+  .processo {
+    background-color: orange;
+  }
+  
+  .finalizado {
+    background-color: green;
+  }
