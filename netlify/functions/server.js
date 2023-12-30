@@ -171,7 +171,7 @@ app.post('/netlify/functions/server/api/cadastrarUsuario', async (req, res) => {
 });
 
 // Rota para realizar o login
-app.post('/netlify/functions/api/login', async (req, res) => {
+app.post('/netlify/functions/login', async (req, res) => {
   try {
     const { usuario, senha } = req.body;
 

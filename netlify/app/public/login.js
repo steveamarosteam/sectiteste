@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const usuario = document.getElementById('usuario').value;
     const senha = document.getElementById('senha').value;
   
-    fetch('/netlify/functions/api/login', {
+    fetch('/netlify/functions/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
